@@ -1,0 +1,54 @@
+nav {
+  background: tomato;
+  color: white;
+  padding: 10px;
+}
+
+nav > h1 {
+  margin-left: 40px;
+  letter-spacing: 1px;
+}
+
+#main-body {
+  min-height: calc(100vh - 148.6px);
+  width: 90%;
+  margin: 30px auto;
+}
+
+#posts {
+  min-height: 600px;
+}
+
+#posts > div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+#pagination {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  background: teal;
+  color: white;
+  font-size: 16px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+footer {
+  padding: 5px;
+  background: gray;
+  padding-left: 30px;
+}

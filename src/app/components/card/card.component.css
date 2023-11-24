@@ -1,0 +1,30 @@
+#card{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+h2{
+    color: rgb(221, 163, 16);
+}
+
+p{
+    color: gray;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size:16px;
+    font-weight: bold;
+    background: rgb(7, 145, 7);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(5, 107, 5);
+}
